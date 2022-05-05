@@ -1,0 +1,360 @@
+
+
+RESULTADO MOCHILA ORDENADA 10 ITENS:
+
+Capacidade final: 102 de 105
+Benefício total: 178
+Número de itens: 8
+Tempo de execução: 62490 ns
+
+
+RESULTADO MOCHILA ORDENADA 50 ITENS:
+
+Capacidade final: 943 de 943
+Benefício total: 1196
+Número de itens: 42
+Tempo de execução: 68251 ns
+
+
+RESULTADO MOCHILA ORDENADA 100 ITENS:
+
+Capacidade final: 1198 de 1198
+Benefício total: 2020
+Número de itens: 63
+Tempo de execução: 545281 ns
+
+
+RESULTADO MOCHILA ORDENADA 200 ITENS:
+
+Capacidade final: 3478 de 3483
+Benefício total: 5230
+Número de itens: 167
+Tempo de execução: 105899 ns
+
+
+RESULTADO MOCHILA ORDENADA 300 ITENS:
+
+Capacidade final: 6308 de 6312
+Benefício total: 7202
+Número de itens: 284
+Tempo de execução: 144974 ns
+
+
+RESULTADO MOCHILA ORDENADA 500 ITENS:
+
+Capacidade final: 8240 de 8240
+Benefício total: 11881
+Número de itens: 407
+Tempo de execução: 248958 ns
+
+
+RESULTADO MOCHILA ORDENADA 750 ITENS:
+
+Capacidade final: 16218 de 16235
+Benefício total: 18050
+Número de itens: 732
+Tempo de execução: 368682 ns
+
+
+RESULTADO MOCHILA ORDENADA 1000 ITENS:
+
+Capacidade final: 4230 de 4230
+Benefício total: 11780
+Número de itens: 366
+Tempo de execução: 623661 ns
+
+
+RESULTADO MOCHILA ORDENADA 1250 ITENS:
+
+Capacidade final: 17311 de 17313
+Benefício total: 27465
+Número de itens: 889
+Tempo de execução: 290052 ns
+
+
+RESULTADO MOCHILA ORDENADA 1500 ITENS:
+
+Capacidade final: 23630 de 23631
+Benefício total: 33638
+Número de itens: 1178
+Tempo de execução: 454387 ns
+
+
+RESULTADO MOCHILA ORDENADA 2000 ITENS:
+
+Capacidade final: 27639 de 27639
+Benefício total: 43160
+Número de itens: 1443
+Tempo de execução: 645829 ns
+
+
+RESULTADO MOCHILA ORDENADA 2500 ITENS:
+
+Capacidade final: 3976 de 3976
+Benefício total: 17332
+Número de itens: 527
+Tempo de execução: 859827 ns
+
+
+RESULTADO MOCHILA ORDENADA 3000 ITENS:
+
+Capacidade final: 1924 de 1924
+Benefício total: 10916
+Número de itens: 319
+Tempo de execução: 1149005 ns
+
+
+RESULTADO MOCHILA ORDENADA 4000 ITENS:
+
+Capacidade final: 19105 de 19105
+Benefício total: 53238
+Número de itens: 1626
+Tempo de execução: 1338708 ns
+
+
+RESULTADO MOCHILA ORDENADA 5000 ITENS:
+
+Capacidade final: 17517 de 17517
+Benefício total: 57064
+Número de itens: 1721
+Tempo de execução: 3818661 ns
+
+
+RESULTADO MOCHILA ORDENADA 10 ITENS:
+
+Capacidade final: 102 de 105
+Benefício total: 178
+Número de itens: 8
+Tempo de execução: 279987 ns
+
+
+RESULTADO MOCHILA ORDENADA 50 ITENS:
+
+Capacidade final: 943 de 943
+Benefício total: 1196
+Número de itens: 42
+Tempo de execução: 68815 ns
+
+
+RESULTADO MOCHILA ORDENADA 100 ITENS:
+
+Capacidade final: 1198 de 1198
+Benefício total: 2020
+Número de itens: 63
+Tempo de execução: 75061 ns
+
+
+RESULTADO MOCHILA ORDENADA 200 ITENS:
+
+Capacidade final: 3478 de 3483
+Benefício total: 5230
+Número de itens: 167
+Tempo de execução: 124058 ns
+
+
+RESULTADO MOCHILA ORDENADA 300 ITENS:
+
+Capacidade final: 6308 de 6312
+Benefício total: 7202
+Número de itens: 284
+Tempo de execução: 143080 ns
+
+
+RESULTADO MOCHILA ORDENADA 500 ITENS:
+
+Capacidade final: 8240 de 8240
+Benefício total: 11881
+Número de itens: 407
+Tempo de execução: 205720 ns
+
+
+RESULTADO MOCHILA ORDENADA 750 ITENS:
+
+Capacidade final: 16218 de 16235
+Benefício total: 18050
+Número de itens: 732
+Tempo de execução: 289073 ns
+
+
+RESULTADO MOCHILA ORDENADA 1000 ITENS:
+
+Capacidade final: 4230 de 4230
+Benefício total: 11780
+Número de itens: 366
+Tempo de execução: 1783698 ns
+
+
+RESULTADO MOCHILA ORDENADA 1250 ITENS:
+
+Capacidade final: 17311 de 17313
+Benefício total: 27465
+Número de itens: 889
+Tempo de execução: 291630 ns
+
+
+RESULTADO MOCHILA ORDENADA 1500 ITENS:
+
+Capacidade final: 23630 de 23631
+Benefício total: 33638
+Número de itens: 1178
+Tempo de execução: 459834 ns
+
+
+RESULTADO MOCHILA ORDENADA 2000 ITENS:
+
+Capacidade final: 27639 de 27639
+Benefício total: 43160
+Número de itens: 1443
+Tempo de execução: 640747 ns
+
+
+RESULTADO MOCHILA ORDENADA 2500 ITENS:
+
+Capacidade final: 3976 de 3976
+Benefício total: 17332
+Número de itens: 527
+Tempo de execução: 904120 ns
+
+
+RESULTADO MOCHILA ORDENADA 3000 ITENS:
+
+Capacidade final: 1924 de 1924
+Benefício total: 10916
+Número de itens: 319
+Tempo de execução: 1179399 ns
+
+
+RESULTADO MOCHILA ORDENADA 4000 ITENS:
+
+Capacidade final: 19105 de 19105
+Benefício total: 53238
+Número de itens: 1626
+Tempo de execução: 1354134 ns
+
+
+RESULTADO MOCHILA ORDENADA 5000 ITENS:
+
+Capacidade final: 17517 de 17517
+Benefício total: 57064
+Número de itens: 1721
+Tempo de execução: 3246591 ns
+
+
+RESULTADO MOCHILA ORDENADA 10 ITENS:
+
+Capacidade final: 102 de 105
+Benefício total: 178
+Número de itens: 8
+Tempo de execução: 272606 ns
+
+
+RESULTADO MOCHILA ORDENADA 50 ITENS:
+
+Capacidade final: 943 de 943
+Benefício total: 1196
+Número de itens: 42
+Tempo de execução: 311820 ns
+
+
+RESULTADO MOCHILA ORDENADA 100 ITENS:
+
+Capacidade final: 1198 de 1198
+Benefício total: 2020
+Número de itens: 63
+Tempo de execução: 344659 ns
+
+
+RESULTADO MOCHILA ORDENADA 200 ITENS:
+
+Capacidade final: 3478 de 3483
+Benefício total: 5230
+Número de itens: 167
+Tempo de execução: 116827 ns
+
+
+RESULTADO MOCHILA ORDENADA 300 ITENS:
+
+Capacidade final: 6308 de 6312
+Benefício total: 7202
+Número de itens: 284
+Tempo de execução: 152699 ns
+
+
+RESULTADO MOCHILA ORDENADA 500 ITENS:
+
+Capacidade final: 8240 de 8240
+Benefício total: 11881
+Número de itens: 407
+Tempo de execução: 316130 ns
+
+
+RESULTADO MOCHILA ORDENADA 750 ITENS:
+
+Capacidade final: 16218 de 16235
+Benefício total: 18050
+Número de itens: 732
+Tempo de execução: 359418 ns
+
+
+RESULTADO MOCHILA ORDENADA 1000 ITENS:
+
+Capacidade final: 4230 de 4230
+Benefício total: 11780
+Número de itens: 366
+Tempo de execução: 367927 ns
+
+
+RESULTADO MOCHILA ORDENADA 1250 ITENS:
+
+Capacidade final: 17311 de 17313
+Benefício total: 27465
+Número de itens: 889
+Tempo de execução: 477119 ns
+
+
+RESULTADO MOCHILA ORDENADA 1500 ITENS:
+
+Capacidade final: 23630 de 23631
+Benefício total: 33638
+Número de itens: 1178
+Tempo de execução: 911757 ns
+
+
+RESULTADO MOCHILA ORDENADA 2000 ITENS:
+
+Capacidade final: 27639 de 27639
+Benefício total: 43160
+Número de itens: 1443
+Tempo de execução: 772359 ns
+
+
+RESULTADO MOCHILA ORDENADA 2500 ITENS:
+
+Capacidade final: 3976 de 3976
+Benefício total: 17332
+Número de itens: 527
+Tempo de execução: 922144 ns
+
+
+RESULTADO MOCHILA ORDENADA 3000 ITENS:
+
+Capacidade final: 1924 de 1924
+Benefício total: 10916
+Número de itens: 319
+Tempo de execução: 1187678 ns
+
+
+RESULTADO MOCHILA ORDENADA 4000 ITENS:
+
+Capacidade final: 19105 de 19105
+Benefício total: 53238
+Número de itens: 1626
+Tempo de execução: 1431626 ns
+
+
+RESULTADO MOCHILA ORDENADA 5000 ITENS:
+
+Capacidade final: 17517 de 17517
+Benefício total: 57064
+Número de itens: 1721
+Tempo de execução: 3129610 ns

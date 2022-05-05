@@ -1,0 +1,360 @@
+
+
+RESULTADO MOCHILA 10 ITENS:
+
+Capacidade final: 102 de 105
+Benefício total: 178
+Número de itens: 8
+Tempo de execução: 132497 ns
+
+
+RESULTADO MOCHILA 50 ITENS:
+
+Capacidade final: 942 de 943
+Benefício total: 1196
+Número de itens: 42
+Tempo de execução: 132021 ns
+
+
+RESULTADO MOCHILA 100 ITENS:
+
+Capacidade final: 1198 de 1198
+Benefício total: 2028
+Número de itens: 61
+Tempo de execução: 138740 ns
+
+
+RESULTADO MOCHILA 200 ITENS:
+
+Capacidade final: 3482 de 3483
+Benefício total: 5229
+Número de itens: 167
+Tempo de execução: 290718 ns
+
+
+RESULTADO MOCHILA 300 ITENS:
+
+Capacidade final: 6309 de 6312
+Benefício total: 7203
+Número de itens: 283
+Tempo de execução: 385779 ns
+
+
+RESULTADO MOCHILA 500 ITENS:
+
+Capacidade final: 8240 de 8240
+Benefício total: 11889
+Número de itens: 406
+Tempo de execução: 1045767 ns
+
+
+RESULTADO MOCHILA 750 ITENS:
+
+Capacidade final: 16218 de 16235
+Benefício total: 18050
+Número de itens: 732
+Tempo de execução: 1884427 ns
+
+
+RESULTADO MOCHILA 1000 ITENS:
+
+Capacidade final: 4230 de 4230
+Benefício total: 12071
+Número de itens: 375
+Tempo de execução: 3567160 ns
+
+
+RESULTADO MOCHILA 1250 ITENS:
+
+Capacidade final: 17312 de 17313
+Benefício total: 27479
+Número de itens: 888
+Tempo de execução: 3623376 ns
+
+
+RESULTADO MOCHILA 1500 ITENS:
+
+Capacidade final: 23631 de 23631
+Benefício total: 33639
+Número de itens: 1177
+Tempo de execução: 4779224 ns
+
+
+RESULTADO MOCHILA 2000 ITENS:
+
+Capacidade final: 27639 de 27639
+Benefício total: 43194
+Número de itens: 1444
+Tempo de execução: 8464893 ns
+
+
+RESULTADO MOCHILA 2500 ITENS:
+
+Capacidade final: 3976 de 3976
+Benefício total: 20359
+Número de itens: 613
+Tempo de execução: 6438919 ns
+
+
+RESULTADO MOCHILA 3000 ITENS:
+
+Capacidade final: 1924 de 1924
+Benefício total: 15490
+Número de itens: 473
+Tempo de execução: 6986795 ns
+
+
+RESULTADO MOCHILA 4000 ITENS:
+
+Capacidade final: 19105 de 19105
+Benefício total: 53520
+Número de itens: 1632
+Tempo de execução: 27133670 ns
+
+
+RESULTADO MOCHILA 5000 ITENS:
+
+Capacidade final: 17517 de 17517
+Benefício total: 58010
+Número de itens: 1729
+Tempo de execução: 33531807 ns
+
+
+RESULTADO MOCHILA 10 ITENS:
+
+Capacidade final: 102 de 105
+Benefício total: 178
+Número de itens: 8
+Tempo de execução: 519141 ns
+
+
+RESULTADO MOCHILA 50 ITENS:
+
+Capacidade final: 942 de 943
+Benefício total: 1196
+Número de itens: 42
+Tempo de execução: 134948 ns
+
+
+RESULTADO MOCHILA 100 ITENS:
+
+Capacidade final: 1198 de 1198
+Benefício total: 2028
+Número de itens: 61
+Tempo de execução: 131591 ns
+
+
+RESULTADO MOCHILA 200 ITENS:
+
+Capacidade final: 3482 de 3483
+Benefício total: 5229
+Número de itens: 167
+Tempo de execução: 287703 ns
+
+
+RESULTADO MOCHILA 300 ITENS:
+
+Capacidade final: 6309 de 6312
+Benefício total: 7203
+Número de itens: 283
+Tempo de execução: 495420 ns
+
+
+RESULTADO MOCHILA 500 ITENS:
+
+Capacidade final: 8240 de 8240
+Benefício total: 11889
+Número de itens: 406
+Tempo de execução: 942550 ns
+
+
+RESULTADO MOCHILA 750 ITENS:
+
+Capacidade final: 16218 de 16235
+Benefício total: 18050
+Número de itens: 732
+Tempo de execução: 1985453 ns
+
+
+RESULTADO MOCHILA 1000 ITENS:
+
+Capacidade final: 4230 de 4230
+Benefício total: 12071
+Número de itens: 375
+Tempo de execução: 1739890 ns
+
+
+RESULTADO MOCHILA 1250 ITENS:
+
+Capacidade final: 17312 de 17313
+Benefício total: 27479
+Número de itens: 888
+Tempo de execução: 4738253 ns
+
+
+RESULTADO MOCHILA 1500 ITENS:
+
+Capacidade final: 23631 de 23631
+Benefício total: 33639
+Número de itens: 1177
+Tempo de execução: 4759150 ns
+
+
+RESULTADO MOCHILA 2000 ITENS:
+
+Capacidade final: 27639 de 27639
+Benefício total: 43194
+Número de itens: 1444
+Tempo de execução: 8516182 ns
+
+
+RESULTADO MOCHILA 2500 ITENS:
+
+Capacidade final: 3976 de 3976
+Benefício total: 20359
+Número de itens: 613
+Tempo de execução: 6333051 ns
+
+
+RESULTADO MOCHILA 3000 ITENS:
+
+Capacidade final: 1924 de 1924
+Benefício total: 15490
+Número de itens: 473
+Tempo de execução: 6995875 ns
+
+
+RESULTADO MOCHILA 4000 ITENS:
+
+Capacidade final: 19105 de 19105
+Benefício total: 53520
+Número de itens: 1632
+Tempo de execução: 27102832 ns
+
+
+RESULTADO MOCHILA 5000 ITENS:
+
+Capacidade final: 17517 de 17517
+Benefício total: 58010
+Número de itens: 1729
+Tempo de execução: 32540872 ns
+
+
+RESULTADO MOCHILA 10 ITENS:
+
+Capacidade final: 102 de 105
+Benefício total: 178
+Número de itens: 8
+Tempo de execução: 461180 ns
+
+
+RESULTADO MOCHILA 50 ITENS:
+
+Capacidade final: 942 de 943
+Benefício total: 1196
+Número de itens: 42
+Tempo de execução: 582593 ns
+
+
+RESULTADO MOCHILA 100 ITENS:
+
+Capacidade final: 1198 de 1198
+Benefício total: 2028
+Número de itens: 61
+Tempo de execução: 661679 ns
+
+
+RESULTADO MOCHILA 200 ITENS:
+
+Capacidade final: 3482 de 3483
+Benefício total: 5229
+Número de itens: 167
+Tempo de execução: 1096987 ns
+
+
+RESULTADO MOCHILA 300 ITENS:
+
+Capacidade final: 6309 de 6312
+Benefício total: 7203
+Número de itens: 283
+Tempo de execução: 541594 ns
+
+
+RESULTADO MOCHILA 500 ITENS:
+
+Capacidade final: 8240 de 8240
+Benefício total: 11889
+Número de itens: 406
+Tempo de execução: 1111194 ns
+
+
+RESULTADO MOCHILA 750 ITENS:
+
+Capacidade final: 16218 de 16235
+Benefício total: 18050
+Número de itens: 732
+Tempo de execução: 2590882 ns
+
+
+RESULTADO MOCHILA 1000 ITENS:
+
+Capacidade final: 4230 de 4230
+Benefício total: 12071
+Número de itens: 375
+Tempo de execução: 1721544 ns
+
+
+RESULTADO MOCHILA 1250 ITENS:
+
+Capacidade final: 17312 de 17313
+Benefício total: 27479
+Número de itens: 888
+Tempo de execução: 7141417 ns
+
+
+RESULTADO MOCHILA 1500 ITENS:
+
+Capacidade final: 23631 de 23631
+Benefício total: 33639
+Número de itens: 1177
+Tempo de execução: 5860948 ns
+
+
+RESULTADO MOCHILA 2000 ITENS:
+
+Capacidade final: 27639 de 27639
+Benefício total: 43194
+Número de itens: 1444
+Tempo de execução: 11353349 ns
+
+
+RESULTADO MOCHILA 2500 ITENS:
+
+Capacidade final: 3976 de 3976
+Benefício total: 20359
+Número de itens: 613
+Tempo de execução: 6940135 ns
+
+
+RESULTADO MOCHILA 3000 ITENS:
+
+Capacidade final: 1924 de 1924
+Benefício total: 15490
+Número de itens: 473
+Tempo de execução: 8432565 ns
+
+
+RESULTADO MOCHILA 4000 ITENS:
+
+Capacidade final: 19105 de 19105
+Benefício total: 53520
+Número de itens: 1632
+Tempo de execução: 27543738 ns
+
+
+RESULTADO MOCHILA 5000 ITENS:
+
+Capacidade final: 17517 de 17517
+Benefício total: 58010
+Número de itens: 1729
+Tempo de execução: 32294953 ns

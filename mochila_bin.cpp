@@ -3,7 +3,8 @@
 #include <fstream>
 #include <string>
 #include <vector>
-#include <map>
+#include <chrono>
+
 using namespace std;
 
 struct item
@@ -116,13 +117,6 @@ vector<item> mochilaBinariaOrdenada(vector<item> itens, int capacidade)
 
     quickSort(itens, 0, itens.size() - 1);
 
-    cout << endl
-         << "Vetor ordenado" << endl;
-    for (item i : itens)
-    {
-        cout << i.idx << " " << i.beneficio << " " << i.custo << " " << i.custo_beneficio << endl;
-    }
-
     while ((peso < capacidade) && (itens.size() > 0))
     {
         bestItem = itens.back();
@@ -133,64 +127,90 @@ vector<item> mochilaBinariaOrdenada(vector<item> itens, int capacidade)
             itens_selecionados.push_back(bestItem);
             itens.pop_back();
         }
-        else
-        {
-            itens.pop_back();
-            // break (Se item nao couber, o que fazer?)
-        }
+        else itens.pop_back();
+
     }
-    cout << "RESULTADO" << endl;
-    int b = 0;
-    for (item i : itens_selecionados)
-    {
-        cout << i.idx << " " << i.beneficio << " " << i.custo << " " << i.custo_beneficio << endl;
-        b += i.beneficio;
-    }
-    cout << "Peso ocupado da mochila: " << peso << endl;
-    cout << "Benefício total: " << b << endl;
+
     return itens_selecionados;
 }
 
 int main()
 {
-    string filename = "./paa02/Mochila2000.txt";
-    ifstream myFile(filename);
-    if (!myFile.is_open())
+    int sizes[15] = {10, 50, 100, 200, 300, 500, 750, 1000, 1250, 1500, 2000, 2500, 3000, 4000, 5000};
+    for (int size : sizes)
     {
-        cout << "Erro ao abrir arquivo";
-        return 0;
+        string filename = "./paa02/Mochila" + to_string(size) + ".txt";
+        ifstream myFile(filename);
+        if (!myFile.is_open())
+        {
+            cout << "Erro ao abrir arquivo" << endl;
+            return 0;
+        }
+
+        vector<item> itens;
+        string aux = "";
+        int capacidade;
+        getline(myFile, aux);
+        capacidade = stoi(aux);
+
+        populateBenefits(itens, myFile, size);
+        getline(myFile, aux);
+        populateCostBenefit(itens, myFile, size);
+
+        auto start = chrono::steady_clock::now();
+
+        vector<item> mochila = mochilaBinaria(itens, capacidade);
+
+        ofstream bin("./resultados/mochilaBinaria.txt", ios_base::app);
+
+        if (!bin.is_open())
+        {
+            cout << "Erro ao abrir arquivo" << endl;
+            return 0;
+        }
+
+        bin << endl << endl << "RESULTADO MOCHILA " << size << " ITENS:" << endl;
+        int b = 0, n = 0, p = 0;
+
+        for (item i : mochila)
+        {
+            n++;
+            b += i.beneficio;
+            p += i.custo;
+        }
+        bin << endl
+            << "Capacidade final: " << p << " de " << capacidade << endl
+            << "Benefício total: " << b << endl
+            << "Número de itens: " << n << endl;
+    
+        auto end = chrono::steady_clock::now();
+        bin << "Tempo de execução: " << chrono::duration_cast<chrono::nanoseconds>(end - start).count() << " ns" << endl;
+
+        bin.close();
+
+        auto startOrd = chrono::steady_clock::now();
+        vector<item> mochilaOrdenada = mochilaBinariaOrdenada(itens, capacidade);
+
+        ofstream binOrd("./resultados/mochilaBinariaOrdenada.txt", ios_base::app);
+
+        binOrd << endl << endl << "RESULTADO MOCHILA ORDENADA " << size << " ITENS:" << endl;
+        b = 0, n = 0, p = 0;
+
+        for (item i : mochilaOrdenada)
+        {
+            n++;
+            b += i.beneficio;
+            p += i.custo;
+        }
+        binOrd << endl
+               << "Capacidade final: " << p << " de " << capacidade << endl
+               << "Benefício total: " << b << endl
+               << "Número de itens: " << n << endl;
+
+        auto endOrd = chrono::steady_clock::now();
+        binOrd << "Tempo de execução: " << chrono::duration_cast<chrono::nanoseconds>(endOrd - startOrd).count() << " ns" << endl;
+        binOrd.close();
+
+        myFile.close();
     }
-    vector<item> itens;
-    string aux = "";
-    int capacidade;
-    getline(myFile, aux);
-    capacidade = stoi(aux);
-    cout << capacidade << endl;
-
-    populateBenefits(itens, myFile, 2000);
-    getline(myFile, aux);
-    populateCostBenefit(itens, myFile, 2000);
-
-    vector<item> mochila = mochilaBinaria(itens, capacidade);
-
-    cout << "RESULTADO" << endl;
-    int b = 0;
-    for (item i : mochila)
-    {
-        // cout << i.idx << " ";
-        b += i.beneficio;
-    }
-    cout << endl
-         << "Benefício total: " << b << endl;
-
-    vector<item> mochilaOrdenada = mochilaBinariaOrdenada(itens, capacidade);
-    b = 0;
-    cout << "RESULTADO" << endl;
-    for (item i : mochilaOrdenada)
-    {
-        // cout << i.idx << " ";
-        b += i.beneficio;
-    }
-    cout << endl
-         << "Benefício total: " << b << endl;
 }
