@@ -102,7 +102,6 @@ vector<item> mochilaBinaria(vector<item> itens, int capacidade)
         else
         {
             itens.erase(itens.begin() + aux);
-            // break (Se item nao couber, o que fazer?)
         }
     }
 
