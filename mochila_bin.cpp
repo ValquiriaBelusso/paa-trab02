@@ -49,7 +49,8 @@ int findBest(vector<item> itens)
             largest = itens[i];
             j = i;
         }
-    }
+     }
+
     return j;
 }
 
@@ -58,7 +59,7 @@ void quickSort(vector<item> &vet, int left, int right)
     int i = left, j = right;
     item aux;
     float pivo;
-    pivo = (vet[left].custo_beneficio + vet[i + j / 2].custo_beneficio + vet[right].custo_beneficio) / 3;
+    pivo = vet[left].custo_beneficio;
 
     while (i <= j)
     {
@@ -129,6 +130,7 @@ vector<item> mochilaBinariaOrdenada(vector<item> itens, int capacidade)
         else itens.pop_back();
 
     }
+
 
     return itens_selecionados;
 }
